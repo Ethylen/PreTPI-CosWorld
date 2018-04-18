@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbckg"
+    tools:context="cpnv.com.accueil_cpw.EditActivity">
+
+    <!-- Scroll la page -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <requestFocus />
+
+
+            <LinearLayout
+                android:id="@+id/LineLay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivImage1"
+                        android:layout_width="320dp"
+                        android:layout_height="320dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:color/background_light" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivImage5"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@android:color/background_light" />
+
+                        <ImageView
+                            android:id="@+id/ivImage6"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@android:color/background_light" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivImage2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:color/background_light" />
+
+                    <ImageView
+                        android:id="@+id/ivImage3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:color/background_light" />
+
+                    <ImageView
+                        android:id="@+id/ivImage4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:color/background_light" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/LineLay1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <Button
+                    android:id="@+id/btnAdd1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_above="@+id/btnAdd5"
+                    android:layout_marginBottom="141dp"
+                    android:layout_marginEnd="147dp"
+                    android:layout_marginRight="147dp"
+                    android:layout_toLeftOf="@+id/btnAdd3"
+                    android:layout_toStartOf="@+id/btnAdd3"
+                    android:background="@drawable/roundbuttons"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/btnAdd2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_above="@+id/btnAdd3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="130dp"
+                    android:layout_marginEnd="55dp"
+                    android:layout_marginRight="55dp"
+                    android:background="@drawable/roundbuttons"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/btnAdd3"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignLeft="@+id/btnAdd2"
+                    android:layout_alignStart="@+id/btnAdd2"
+                    android:layout_alignTop="@+id/btnAdd1"
+                    android:background="@drawable/roundbuttons"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/btnAdd4"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignLeft="@+id/btnAdd3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/btnAdd3"
+                    android:layout_marginBottom="23dp"
+                    android:background="@drawable/roundbuttons"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/btnAdd5"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignBaseline="@+id/btnAdd4"
+                    android:layout_alignBottom="@+id/btnAdd4"
+                    android:layout_alignEnd="@+id/btnAdd1"
+                    android:layout_alignRight="@+id/btnAdd1"
+                    android:background="@drawable/roundbuttons"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/btnAdd6"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignBaseline="@+id/btnAdd4"
+                    android:layout_alignBottom="@+id/btnAdd4"
+                    android:layout_marginEnd="129dp"
+                    android:layout_marginRight="129dp"
+                    android:layout_toLeftOf="@+id/btnAdd1"
+                    android:layout_toStartOf="@+id/btnAdd1"
+                    android:background="@drawable/roundbuttons"
+                    android:text="+" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LineLay1"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/tvPseudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="monospace"
+                    android:text="Pseudo"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etxtPseudo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/nobordertxt"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:hint="Pseudo ici"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/tvGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="monospace"
+                    android:text="Genre"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/RadioFH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="24dp">
+
+                    <RadioButton
+                        android:id="@+id/radioHomme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Homme" />
+
+                    <RadioButton
+                        android:id="@+id/radioFemme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Femme" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tvPays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="monospace"
+                    android:text="Pays"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <!-- Titre DESCRIPTION -->
+                <Spinner
+                    android:id="@+id/SpinnerPays"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="monospace"
+                    android:text="Description"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <!-- Champs DESCRIPTION -->
+                <EditText
+                    android:id="@+id/etxtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="15dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/nobordertxt"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:hint="Description ici" />
+
+                <Button
+                    android:id="@+id/btnValider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:text="Valider" />
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
