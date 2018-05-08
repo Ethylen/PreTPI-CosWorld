@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Apr 25 09:52:03 CEST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\tiffany.di-domenico\\Documents\\Accueil_CPW\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\209
+0.path=classes.dex
+0.set=DEX
+count=1
