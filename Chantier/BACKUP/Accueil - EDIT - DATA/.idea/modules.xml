@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Accueil_CPW.iml" filepath="$PROJECT_DIR$/Accueil_CPW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accueil - EDIT - DATA.iml" filepath="$PROJECT_DIR$/Accueil - EDIT - DATA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
